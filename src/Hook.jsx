@@ -8,8 +8,10 @@ const Hook = () => {
           setCount(count + 1)
         }
         let dec = () => {
+          if(count > 0){
           setCount(count - 1)
         }
+      }
         let reset = () => {
           setCount(0)
         }
