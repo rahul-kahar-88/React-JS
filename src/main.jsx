@@ -8,7 +8,9 @@ import './index.css'
 // import App from './Router.jsx'
 // import App from './Hook.jsx'
 // import App from './Hook2.jsx'
-import App from './Form.jsx'
+// import App from './Signup.jsx'
+// import App from './login.jsx'
+import App from './Map'
 
 import { BrowserRouter } from 'react-router-dom'
 
