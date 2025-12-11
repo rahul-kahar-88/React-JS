@@ -13,6 +13,17 @@
     } 
     , 
     {
+        "name": "Ramesh",
+        "age":40,
+        "aadharno": 9587423574585,
+        "city": "mumbai",
+        "checkin": "15-12-2025",
+        "checkout": "18-12-2025",
+        "people": 5,
+        "Total": 2500
+    } 
+    , 
+    {
         "name": "shiva",
         "age":22,
         "aadharno": 789512357521,
