@@ -13,11 +13,11 @@ let App = () => {
     }
   return (
     <>
-      <h1>Home page</h1>
-      {/* <Child  myname="rahul" age="20"/> */}
-      {/* <Child myname={name} age={age}/>
-      <Child myname="shiva" age={23}/> */}
-      <Child mydata={myinfo}/>
+      {/* <h1>Home page</h1>
+      { <Child  myname="rahul" age="20"/> }
+      { <Child myname={name} age={age}/>}
+      {<Child myname="shiva" age={23}/> }
+      <Child mydata={myinfo}/> */}
       
     </>
   )

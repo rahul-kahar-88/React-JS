@@ -1,0 +1,39 @@
+{
+
+"train": [
+    {
+        "name": "rahul",
+        "age":20,
+        "aadharno": 455289742585,
+        "city": "gorakhpur",
+        "checkin": "15-12-2025",
+        "checkout": "18-12-2025",
+        "people": 8,
+        "Total": 4000
+    } 
+    , 
+    {
+        "name": "shiva",
+        "age":22,
+        "aadharno": 789512357521,
+        "city": "rewa",
+        "checkin": "18-12-2025",
+        "checkout": "25-12-2025",
+        "people": 3,
+        "Total": 1500
+    } 
+    , 
+    {
+        "name": "rakesh",
+        "age":26,
+        "aadharno": 457145378952,
+        "city": "bhopal",
+        "checkin": "20-12-2025",
+        "checkout": "24-12-2025",
+        "people": 6,
+        "Total": 3000
+    }
+]
+
+
+}

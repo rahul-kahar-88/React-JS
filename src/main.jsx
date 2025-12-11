@@ -10,7 +10,8 @@ import './index.css'
 // import App from './Hook2.jsx'
 // import App from './Signup.jsx'
 // import App from './login.jsx'
-import App from './Map'
+// import App from './Map'
+import App from './Bits.jsx'
 
 import { BrowserRouter } from 'react-router-dom'
 
