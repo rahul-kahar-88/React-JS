@@ -11,7 +11,9 @@ import './index.css'
 // import App from './Signup.jsx'
 // import App from './login.jsx'
 // import App from './Map'
-import App from './Bits.jsx'
+// import App from './Bits.jsx'
+// import App from './useeffect'
+import App from './Datashow'
 
 import { BrowserRouter } from 'react-router-dom'
 
