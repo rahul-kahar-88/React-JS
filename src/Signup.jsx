@@ -73,7 +73,7 @@ const App = () => {
   return (
     <>
     <h1>Form Handling</h1>
-    <form  onSubmit={HandleSubmit}>
+    <form  onSubmit={HandleSubmit} className='h-190.25  justify-center items-center'>
         Name   :    <input type="text" name="name" placeholder='enter name' value={form.name} onChange={handleChange} /> <br />  <br />
         Email   :    <input type="email" name="email" placeholder='enter email' value={form.email} onChange={handleChange} /> <br />   <br />
         Number   :    <input type="number" name="number" placeholder='enter number' value={form.number} onChange={handleChange} /> <br />   <br />
