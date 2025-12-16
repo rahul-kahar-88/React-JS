@@ -1,13 +1,18 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
-const Datashow = () => {
+const App = () => {
      
    let[Data,setData]= useState([])
 
+    //     Post Method -- 
+    // -------------------- //
+
+
+    let FatchData=()=>{
+         
       //     Get Method -- 
       // -------------------- //
-
 
     let api="http://localhost:3000/train"
 
@@ -20,6 +25,15 @@ const Datashow = () => {
         
     } , [])
 
+    }
+
+    useEffect(()=>{
+       FatchData()
+    } , [] )
+
+
+  
+
 
     //     Delete Method -- 
     // -------------------- //
@@ -29,7 +43,7 @@ const Datashow = () => {
     let api=`http://localhost:3000/train/${id}`
     axios.delete(api).then(()=>{
       alert("booking cancelled")
-
+      FatchData()
     })
     }
 
@@ -72,4 +86,4 @@ const Datashow = () => {
   )
 }
 
-export default Datashow
+export default App

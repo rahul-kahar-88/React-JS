@@ -6,7 +6,7 @@ const App = () => {
     // let [name, setName] = useState(" ")
     // let [email, setEmail] = useState(" ")
 
-    let Navigate = useNavigate()
+    let nav = useNavigate()
       
 
 
@@ -62,6 +62,9 @@ const App = () => {
             localStorage.setItem("cpass", form.cpass)
             
             
+        }
+        else{
+          nav("/login1")
         }
     }
 

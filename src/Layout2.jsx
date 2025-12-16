@@ -12,6 +12,7 @@ const Layout2 = () => {
             <li>  <Link to='/about'> About</Link>  </li>
             <li>  <Link to='/service'> Service</Link>  </li>
             <li>  <Link to='/signup'> Signup</Link>  </li>
+            <li>  <Link to='/login1'> login</Link>  </li>
         </ul>
       </header>
 

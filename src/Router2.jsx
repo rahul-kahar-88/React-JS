@@ -5,6 +5,7 @@ import Home from './Home'
 import About from './About'
 import Service from './Service'
 import Signup from './Signup'
+import Login1 from './login1'
 
 const Router2 = () => {
   return (
@@ -18,6 +19,8 @@ const Router2 = () => {
             <Route path='/about' element={<About/>} />
             <Route path='/service' element={<Service/>} />
             <Route path='/signup' element={<Signup/>} />
+            <Route path='/login1' element={<Login1/>} />
+
             <Route path='*' element={ <h1 className='h-196.25 bg-lime-200'> 404 Not Found </h1>} />
             
            </Route>
