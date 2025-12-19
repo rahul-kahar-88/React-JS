@@ -1,7 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Form from './Form'
 
-const App = () => {
+const Post = () => {
      
    let[Data,setData]= useState([])
 
@@ -56,7 +57,7 @@ const App = () => {
           <tr>
             <th>Name</th>
             <th>Age</th>
-            <th>Aadharno</th>
+            <th>Aadhar</th>
             <th>City</th>
             <th>Checkin</th>
             <th>Checkout</th>
@@ -70,20 +71,23 @@ const App = () => {
             <tr>
               <td>{e.name}</td>
               <td>{e.age}</td>
-              <td>{e.aadharno}</td>
+              <td>{e.aadhar}</td>
               <td>{e.city}</td>
               <td>{e.checkin}</td>
               <td>{e.checkout}</td>
               <td>{e.people}</td>
-              <td>{e.Total}</td>
+              {/* <td>{e.Total}</td> */}
+              <td>{e.people*e.person}</td>
               <td onClick={ ()=>{ DataDelete(e.id) } }>Delete</td>
             </tr>
            
           ))}
         </tbody>
       </table>
+
+      <Form fun={FatchData()}/>
     </>
   )
 }
 
-export default App
+export default Post

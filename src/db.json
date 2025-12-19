@@ -1,64 +1,60 @@
 {
   "train": [
     {
-      "name": "shiva",
-      "age": 22,
-      "aadharno": 789512357521,
-      "city": "rewa",
-      "checkin": "18-12-2025",
-      "checkout": "25-12-2025",
-      "people": 3,
-      "Total": 1500
+      "id": "0e4f",
+      "name": "prince",
+      "age": "20",
+      "aadhar": "5478632587458",
+      "city": "Gorakhpur",
+      "checkin": "2025-12-17",
+      "checkout": "2025-12-20",
+      "people": "5",
+      "number": "8858808331",
+      "person": 500
     },
     {
-      "name": "rakesh",
-      "age": 26,
-      "aadharno": 457145378952,
-      "city": "bhopal",
-      "checkin": "20-12-2025",
-      "checkout": "24-12-2025",
-      "people": 6,
-      "Total": 3000
+      "id": "bd21",
+      "name": "abhi",
+      "age": "24",
+      "aadhar": "547896325896",
+      "city": "Delhi",
+      "checkin": "2025-12-17",
+      "checkout": "2025-12-30",
+      "people": "3",
+      "person": 500
     },
     {
-      "name": "rk",
-      "age": 21,
-      "aadharno": 457154725896,
-      "city": "basti",
-      "checkin": "20-12-2025",
-      "checkout": "24-12-2025",
-      "people": 6,
-      "Total": 3000
+      "id": "6bf3",
+      "name": "vikas",
+      "age": "101",
+      "aadhar": "8574569853",
+      "city": "Delhi",
+      "checkin": "2025-12-19",
+      "checkout": "2025-12-27",
+      "people": "5",
+      "person": 500
     },
     {
+      "id": "3ff3",
+      "name": "vikas",
+      "age": "101",
+      "aadhar": "8574569853",
+      "city": "Bhopal",
+      "checkin": "2025-12-19",
+      "checkout": "2025-12-27",
+      "people": "5",
+      "person": 500
+    },
+    {
+      "id": "b343",
       "name": "rahul",
-      "age": 20,
-      "aadharno": 455289742585,
-      "city": "gorakhpur",
-      "checkin": "20-12-2025",
-      "checkout": "24-12-2025",
-      "people": 6,
-      "Total": 3000
-    },
-    {
-      "name": "vinod",
-      "age": 23,
-      "aadharno": 455585242585,
-      "city": "singrauli",
-      "checkin": "25-12-2025",
-      "checkout": "27-12-2025",
-      "people": 5,
-      "Total": 2500
-    },
-    {
-      "name": "satyam",
-      "age": 25,
-      "aadharno": 854285242585,
-      "city": "singrauli",
-      "checkin": "25-12-2025",
-      "checkout": "27-12-2025",
-      "people": 5,
-      "Total": 2500
+      "age": "20",
+      "aadhar": "455289742585",
+      "city": "Gorakhpur",
+      "checkin": "2025-12-19",
+      "checkout": "2025-12-27",
+      "people": "8",
+      "person": 500
     }
   ]
 }

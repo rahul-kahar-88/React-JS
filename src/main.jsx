@@ -14,7 +14,9 @@ import './index.css'
 // import App from './Bits.jsx'
 // import App from './useeffect'
 // import App from './Datashow'
-import App from './Router2'
+// import App from './Router2'
+import App from './Post'
+// import App from './Form'
 
 import { BrowserRouter } from 'react-router-dom'
 
