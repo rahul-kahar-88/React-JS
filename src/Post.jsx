@@ -85,7 +85,7 @@ const Post = () => {
         </tbody>
       </table>
 
-      <Form fun={FatchData()}/>
+      <Form fun={FatchData}/>
     </>
   )
 }

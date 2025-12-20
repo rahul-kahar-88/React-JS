@@ -74,6 +74,10 @@ const Form = ({fun}) => {
             <option value="Mumbai">Mumbai</option>
             <option value="Delhi">Delhi</option>
             <option value="Gorakhpur">Gorakhpur</option>
+            <option value="lucknow">lucknow</option>
+            <option value="Deoria">Deoria</option>
+            <option value="Singrauli">Singrauli</option>
+            <option value="Rewa">Rewa</option>
         </select>  <br />  <br />
 
         Enter CheckIn : <input type="date" name='checkin'  value={form.checkin} onChange={handleChange}/>  <br />  <br />

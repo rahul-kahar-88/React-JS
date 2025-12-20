@@ -1,49 +1,15 @@
 {
   "train": [
     {
-      "id": "0e4f",
-      "name": "prince",
-      "age": "20",
-      "aadhar": "5478632587458",
-      "city": "Gorakhpur",
-      "checkin": "2025-12-17",
-      "checkout": "2025-12-20",
-      "people": "5",
-      "number": "8858808331",
-      "person": 500
-    },
-    {
-      "id": "bd21",
       "name": "abhi",
       "age": "24",
       "aadhar": "547896325896",
-      "city": "Delhi",
+      "city": "Deoria",
       "checkin": "2025-12-17",
       "checkout": "2025-12-30",
       "people": "3",
-      "person": 500
-    },
-    {
-      "id": "6bf3",
-      "name": "vikas",
-      "age": "101",
-      "aadhar": "8574569853",
-      "city": "Delhi",
-      "checkin": "2025-12-19",
-      "checkout": "2025-12-27",
-      "people": "5",
-      "person": 500
-    },
-    {
-      "id": "3ff3",
-      "name": "vikas",
-      "age": "101",
-      "aadhar": "8574569853",
-      "city": "Bhopal",
-      "checkin": "2025-12-19",
-      "checkout": "2025-12-27",
-      "people": "5",
-      "person": 500
+      "person": 500,
+      "id": "bd21"
     },
     {
       "id": "b343",
@@ -54,6 +20,83 @@
       "checkin": "2025-12-19",
       "checkout": "2025-12-27",
       "people": "8",
+      "person": 500
+    },
+    {
+      "name": "vikas",
+      "age": "22",
+      "aadhar": "858745885548",
+      "city": "lucknow",
+      "checkin": "2025-12-23",
+      "checkout": "2025-12-31",
+      "people": "5",
+      "person": 500,
+      "id": "8b1f"
+    },
+    {
+      "name": "ankit",
+      "age": "22",
+      "aadhar": "547896524785",
+      "city": "Deoria",
+      "checkin": "2025-12-23",
+      "checkout": "2025-12-29",
+      "people": "3",
+      "person": 500,
+      "id": "dc76"
+    },
+    {
+      "name": "satyam",
+      "age": "25",
+      "aadhar": "547125473985",
+      "city": "Singrauli",
+      "checkin": "2025-12-22",
+      "checkout": "2025-12-25",
+      "people": "7",
+      "person": 500,
+      "id": "bb08"
+    },
+    {
+      "id": "7036",
+      "name": "vinod",
+      "age": "23",
+      "aadhar": "985687458965",
+      "city": "Singrauli",
+      "checkin": "2025-12-23",
+      "checkout": "2025-12-30",
+      "people": "9",
+      "person": 500
+    },
+    {
+      "id": "086f",
+      "name": "vikas",
+      "age": "23",
+      "aadhar": "587896589745",
+      "city": "Bhopal",
+      "checkin": "2025-12-22",
+      "checkout": "2025-12-29",
+      "people": "4",
+      "person": 500
+    },
+    {
+      "id": "bda0",
+      "name": "shiva",
+      "age": "23",
+      "aadhar": "854798589745",
+      "city": "Rewa",
+      "checkin": "2025-12-20",
+      "checkout": "2025-12-22",
+      "people": "5",
+      "person": 500
+    },
+    {
+      "id": "d536",
+      "name": "shivam",
+      "age": "16",
+      "aadhar": "855789647845",
+      "city": "Mumbai",
+      "checkin": "2025-12-20",
+      "checkout": "2025-12-24",
+      "people": "6",
       "person": 500
     }
   ]
