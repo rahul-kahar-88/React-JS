@@ -14,10 +14,10 @@ import './index.css'
 // import App from './Bits.jsx'
 // import App from './useeffect'
 // import App from './Datashow'
-// import App from './Router2'
+import App from './Router2'
 // import App from './Post'
 // import App from './Form'
-import App from './put'
+// import App from './put'
 
 import { BrowserRouter } from 'react-router-dom'
 

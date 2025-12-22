@@ -24,6 +24,7 @@ const App = () => {
     }
     let HandleSubmit = (e) => {
         e.preventDefault()
+        
        
         let validate = true
 
@@ -51,6 +52,9 @@ const App = () => {
             alert("Please fill cpass")
             validate = false
         }
+        else{
+          nav("/login1")
+        }
         console.log(form)
         if (validate) {
             alert("Form submitted successfully")
@@ -63,9 +67,7 @@ const App = () => {
             
             
         }
-        else{
-          nav("/login1")
-        }
+        
     }
 
     
