@@ -18,13 +18,24 @@ import App from './Router2'
 // import App from './Post'
 // import App from './Form'
 // import App from './put'
+import UserContext from './CreateContext'
+
+
+
+let mydata={
+   name:"rahul",
+   age:"20"
+}
 
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-     
+
+     <UserContext.Provider value={mydata}>
      <BrowserRouter>
   
     <App />
    </BrowserRouter>
+   </UserContext.Provider>
+   
 )

@@ -76,9 +76,9 @@ const App = () => {
     
 
   return (
-    <>
-    <h1>Form Handling</h1>
-    <form  onSubmit={HandleSubmit} className='h-190.25  justify-center items-center'>
+    <div className='text-center justify-between h-196.25 '>
+    <h1 className=' '>Form Handling</h1>
+    <form  onSubmit={HandleSubmit} className=' border-4 w-150 h-150 text-center justify-between ml-175 mt-5 pt-30  '>
         Name   :    <input type="text" name="name" placeholder='enter name' value={form.name} onChange={handleChange} /> <br />  <br />
         Email   :    <input type="email" name="email" placeholder='enter email' value={form.email} onChange={handleChange} /> <br />   <br />
         Number   :    <input type="number" name="number" placeholder='enter number' value={form.number} onChange={handleChange} /> <br />   <br />
@@ -88,7 +88,7 @@ const App = () => {
         <button type="submit">Submit</button>
     </form>
       
-    </>
+    </div>
   )
 
 }
